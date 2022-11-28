@@ -1,10 +1,11 @@
-import React from "react";
-import HighScoreTable from "./HighScoreTable";
-import allCountryScores from "./scores.js";
+// import logo from './logo.svg';
 import "./App.css";
+import HighScoresMainTable from "./HighScoresMainTable";
 
 function App() {
-  return <HighScoreTable scores={allCountryScores} />;
+  return (
+    <HighScoresMainTable />
+  );
 }
 
 export default App;
